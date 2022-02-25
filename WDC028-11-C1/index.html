@@ -11,34 +11,33 @@
 
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  <a class="navbar-brand" href="./brand.html">MSD</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
+	<nav class="navbar navbar-expand-lg">
+		<a class="navbar-brand" href="#">MSD</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
 
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    <ul class="navbar-nav mr-auto">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="./aboutus.html">About</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="./gallery.html">Gallery</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="./contact.html">Contact</a>
-	      </li>
-	    </ul>
-	    <form class="form-inline my-2 my-lg-0">
-	      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-	    </form>
-	  </div>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	        <ul class="navbar-nav mr-auto" id="navli">
+	         	<li class="nav-item active">
+	        		<a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+	        	</li>
+	        	<li class="nav-item">
+	        		<a class="nav-link" href="./aboutus.html">About</a>
+	        	</li>
+	        	<li class="nav-item">
+	        		<a class="nav-link" href="./gallery.html">Gallery</a>
+	        	</li>
+	        	<li class="nav-item">
+	        		<a class="nav-link" href="./contact.html">Contact</a>
+	        	</li>
+	        </ul>
+	        <form class="form-inline my-2 my-lg-0">
+	        	<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	        	<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	        </form>
+	    </div>
 	</nav>
-
 
 	<div class="container">
 		<div class=" d-flex row jumbotron justify-content-center my-3 flex-column align-items-center text-white" id="banner">
@@ -147,6 +146,7 @@
 
 		  <button type="submit" class="btn btn-outline-success btn-block">Submit</button>
 		  <button type="reset" class="btn btn-outline-warning btn-block">Reset</button>
+		  <button type="submit" value="Submit" onclick="alert ('Are You Sure ?')"class="btn btn-outline-success btn-block">Submit</button>
 		</form>
 	</div>
 

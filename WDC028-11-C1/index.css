@@ -10,7 +10,13 @@ body{
 
 
 nav{
-	padding: 0.8rem;
-	margin-bottom: 2rem;
-	border-bottom: 1px solid grey;
+	background-color: #353535;
+	color: white;
+}
+#navbrand{
+	color:  white;
+}
+
+#navli{
+	color: white;
 }
