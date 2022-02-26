@@ -8,15 +8,24 @@ body{
 	font-family: "Open Sans", sans-serif;
 }
 
-
-nav{
-	background-color: #353535;
-	color: white;
+.navbar{
+	background-color: #333745;
 }
+
 #navbrand{
-	color:  white;
+	color: white;
 }
 
-#navli{
+nav>button{
+	background-color: white;
 	color: white;
+}
+
+#collapse{
+		background-color: white;
+	color: white;
+}
+
+#foot{
+	background-color: #333745;
 }
