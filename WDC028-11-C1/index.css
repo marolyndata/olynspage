@@ -22,10 +22,19 @@ nav>button{
 }
 
 #collapse{
-		background-color: white;
+	background-color: white;
 	color: white;
 }
 
 #foot{
 	background-color: #333745;
+}
+
+#navlist{
+	background-color: #333745;
+	color: white;
+}
+
+.breadcrumb > .breadcrumb-item{
+   color: white;
 }
