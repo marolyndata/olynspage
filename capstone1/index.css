@@ -4,16 +4,20 @@
 	box-sizing: border-box;
 }
 
+
 body{
-	font-family: "Nanum Gothic", sans-serif;
+	font-family: "Open Sans", sans-serif;
+	background-image: url(./images/bg6.png);
+	background-repeat: no-repeat;
 }
 
+
 .navbar{
-	background-color: #333745;
+	background-color: #262626;
 }
 
 #navbrand{
-	color: white;
+	color: black;
 }
 
 nav>button{
@@ -27,11 +31,11 @@ nav>button{
 }
 
 #foot{
-	background-color: #333745;
+	background-color: #262626;
 }
 
 #navlist{
-	background-color: #333745;
+	background-color: #262626;
 	color: white;
 }
 
